@@ -1,0 +1,16 @@
+{
+  "name": "kinzhal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "download": "npm i && cd ./client && npm i && cd ../server && npm i",
+    "run-local": "concurrently \"cd ./client && npm run dev\" \"cd ./server && npx nodemon index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
